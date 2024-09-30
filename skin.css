@@ -1,0 +1,93 @@
+/* styles.css */
+
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Asegúrate de que ocupa toda la altura */
+    background-image: url('fondo2.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+}
+
+/* Contenedor principal */
+.container {
+    text-align: center; /* Centrar texto */
+}
+
+/* Estilo del título */
+#tittle {
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro y semi-transparente */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Poll section styles */
+#poll {
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    width: 300px; /* Ancho fijo */
+}
+
+/* Estilo de las preguntas */
+#poll h1 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+/* Estilo de las etiquetas */
+.radio-container {
+    display: block;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+/* Estilo de botones */
+button {
+    background-color: #4CAF50; /* Color verde */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s, transform 0.2s; /* Efecto de transición */
+}
+
+button:hover {
+    background-color: #45a049; /* Color más oscuro al pasar el mouse */
+    transform: scale(1.05); /* Efecto de aumento al pasar el mouse */
+}
+
+/* Footer styles */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente */
+    padding: 10px;
+}
+
+/* Voting Results */
+#vote-results {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Estilo de la barra de progreso */
+.progress {
+    height: 40px; /* Aumenta la altura de la barra de progreso */
+    border-radius: 20px; /* Bordes redondeados */
+}
